@@ -1,0 +1,53 @@
+/* General body styling to apply a consistent font and padding */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f3f994;
+    color: #333;
+}
+
+/* Header styling for a prominent, readable title */
+h1 {
+    color: #000000;
+}
+
+/* Styling for the student information paragraph */
+#studentInfo {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #73f990;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #000000;
+}
+
+/* Container for API data, specifically for image displays */
+#apiData {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #9b8cff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Ensure images fit within the container neatly */
+#apiData img {
+    max-width: 100%;
+    height: auto;
+    display: block;  /* Center the image */
+    margin: 0 auto;
+}
+
+/* Styling for links to ensure they are noticeable */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
